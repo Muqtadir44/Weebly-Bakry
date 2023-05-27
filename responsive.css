@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1280px){
+    .footer-box3 iframe{
+        width: 500px;
+    }
+    .flex-item{
+         height: 270px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .background{
+        height: 422px;
+        background-size: cover;
+    }
+    .content-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading p{
+        font-size: 30px;
+    }
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-bar{
+        flex-direction: column;
+        position: static;
+    }
+    .nav-list li{
+        list-style: none; 
+        padding: 10px 0px;
+    }
+    .nav-list li a{ 
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+        .about{
+            flex-direction: column;
+    }
+    .about-bakry{
+        margin: 10px 60px;
+    }
+    .big-heading{
+        font-size: 20px;
+    }
+    .video iframe{
+    width: 400px;
+    height: 300px;
+    border-radius: 6%;
+    }
+    .grid-1st{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-2nd{
+        display: flex;
+        flex-direction: column;
+    }
+    .gird-img{
+        width: 300px;
+        height: 300px;
+    }
+    .flex-box{
+        display: grid;
+        justify-content: center;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .flex-item{
+        width: 420px;
+        height: 200px;
+    }
+    .quote{
+    font-size: 20px;
+    display: inherit;
+    margin: 30px;
+    }
+    .footer-box{
+        flex-direction: column;
+    }
+    .footer-box3 iframe{
+        width: 740px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .footer-box3 iframe{
+        width: 300px;
+    }
+}
